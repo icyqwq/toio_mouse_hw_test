@@ -1,0 +1,23 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/icy/esp/esp-idf-v4.4.5/components/bootloader/subproject",
+    "build_dir":          "/home/icy/esp/prj/core2_toio_test/build/bootloader",
+    "config_file":        "/home/icy/esp/prj/core2_toio_test/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.4.5-dirty",
+    "target":             "esp32",
+    "rev":                "0",
+    "min_rev":            "0",
+    "max_rev":            "399",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/icy/esp/esp-idf-v4.4.5/components/efuse/Kconfig;/home/icy/esp/esp-idf-v4.4.5/components/esp32/Kconfig;/home/icy/esp/esp-idf-v4.4.5/components/esp_common/Kconfig;/home/icy/esp/esp-idf-v4.4.5/components/esp_hw_support/Kconfig;/home/icy/esp/esp-idf-v4.4.5/components/esp_system/Kconfig;/home/icy/esp/esp-idf-v4.4.5/components/freertos/Kconfig;/home/icy/esp/esp-idf-v4.4.5/components/hal/Kconfig;/home/icy/esp/esp-idf-v4.4.5/components/log/Kconfig;/home/icy/esp/esp-idf-v4.4.5/components/newlib/Kconfig;/home/icy/esp/esp-idf-v4.4.5/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/icy/esp/esp-idf-v4.4.5/components/bootloader/Kconfig.projbuild;/home/icy/esp/esp-idf-v4.4.5/components/esp_rom/Kconfig.projbuild;/home/icy/esp/esp-idf-v4.4.5/components/esptool_py/Kconfig.projbuild;/home/icy/esp/esp-idf-v4.4.5/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/icy/esp/esp-idf-v4.4.5/components/bootloader", "/home/icy/esp/esp-idf-v4.4.5/components/bootloader_support", "/home/icy/esp/esp-idf-v4.4.5/components/efuse", "/home/icy/esp/esp-idf-v4.4.5/components/esp32", "/home/icy/esp/esp-idf-v4.4.5/components/esp_common", "/home/icy/esp/esp-idf-v4.4.5/components/esp_hw_support", "/home/icy/esp/esp-idf-v4.4.5/components/esp_rom", "/home/icy/esp/esp-idf-v4.4.5/components/esp_system", "/home/icy/esp/esp-idf-v4.4.5/components/esptool_py", "/home/icy/esp/esp-idf-v4.4.5/components/freertos", "/home/icy/esp/esp-idf-v4.4.5/components/hal", "/home/icy/esp/esp-idf-v4.4.5/components/log", "/home/icy/esp/esp-idf-v4.4.5/components/bootloader/subproject/main", "/home/icy/esp/esp-idf-v4.4.5/components/bootloader/subproject/components/micro-ecc", "/home/icy/esp/esp-idf-v4.4.5/components/newlib", "/home/icy/esp/esp-idf-v4.4.5/components/partition_table", "/home/icy/esp/esp-idf-v4.4.5/components/soc", "/home/icy/esp/esp-idf-v4.4.5/components/spi_flash", "/home/icy/esp/esp-idf-v4.4.5/components/xtensa", "" ]
+}
